@@ -1,0 +1,11 @@
+package day2;
+
+public class returnlastdigit { public int lastDigitOf(int input1){
+    if(input1<0)
+ {
+  input1*=-1;
+ }
+ int n=input1%10;
+ return n;
+}
+}
